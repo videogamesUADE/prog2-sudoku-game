@@ -23,8 +23,8 @@ Token
 + int[,]:Position
 
 Board
-- currentBoard : int[,]
-- listTokens : List<Token>
+- currentBoard : Token[,]
+- listTokens : List<int>
 - name : string
 + Board( vName:string )
 + void LoadBoard( sizeBoard:int )
